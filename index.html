@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <title>Estacionamento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Estacionamento</h1>
+    <input type="text" id="placa" placeholder="Placa do veículo">
+    <button onclick="entrarVeiculo()">Entrar</button>
+    <button onclick="sairVeiculo()">Sair</button>
+    <button onclick="mostrarVagas()">Mostrar Vagas</button>
+    <p id="vagas">Vagas disponíveis: 0</p>
+
+    <button onclick="listarVeiculos()">Listar Veiculos</button>
+
+    <ul id="lista-veiculos"></ul>
+    <script src="scripts.js"></script>
+</body>
+</html>
